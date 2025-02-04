@@ -1,6 +1,6 @@
 <?php
 include 'db.php'; // Include the database connection file
-
+include 'header.php'; // Include the header file
 // Save a new note
 if (isset($_POST['save_note'])) {
     $noteText = $_POST['note_text'];
@@ -47,4 +47,5 @@ $stmt = sqlsrv_query($conn, $sql);
         ?>
     </ul>
 </body>
+    <?php include 'footer.php'; // Include the footer file ?>
 </html>
