@@ -1,4 +1,4 @@
-# notepad
+# notepad using PHP & SQL Server database
 Creating a notepad-like web application to save and retrieve data using PHP and SQL Server requires a few steps. Here, I'll guide you through the process. This example includes HTML for the frontend, PHP for the backend logic, and SQL Server for database storage.
 Testing the Website Save the PHP files (db.php and index.php) in a directory on your web server (e.g., htdocs in XAMPP). Start your web server and SQL Server. Access the notepad app in your browser, e.g., http://localhost/index.php. Add a note and check if it appears in the saved notes list.
 
